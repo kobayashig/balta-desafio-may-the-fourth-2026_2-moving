@@ -1,0 +1,6 @@
+@Moving.API_HostAddress = http://localhost:5038
+
+GET {{Moving.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

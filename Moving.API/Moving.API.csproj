@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>72243f6f-9abb-49fa-86f4-980200e11455</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.14.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Moving.AI\Moving.AI.csproj" />
+    <ProjectReference Include="..\Moving.Application\Moving.Application.csproj" />
+    <ProjectReference Include="..\Moving.Core\Moving.Core.csproj" />
+    <ProjectReference Include="..\Moving.Infra\Moving.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
